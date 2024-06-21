@@ -128,8 +128,7 @@ a:hover {
   box-sizing: border-box;
   margin-top: 2rem;
   display: flex;
-
-  left: 40rem;
+  left: 38rem;
   width: 5rem;
   height: 3rem;
   border-radius: 50px;
@@ -139,6 +138,7 @@ a:hover {
   font-family: roboto;
   transition: background-color 0.3s ease;
 }
+
 .btn:hover {
   background-color: #111111;
 }
@@ -755,7 +755,7 @@ a:hover {
   .btn {
     display: flex;
     position: relative;
-    left: 20%;
+    left: 5%;
     width: 30%;
   }
   .abtimg img {
@@ -922,7 +922,7 @@ a:hover {
   .btn {
     display: flex;
     position: relative;
-    left: 20%;
+    left: 5%;
     width: 30%;
   }
   .abtimg img {
@@ -1087,7 +1087,7 @@ a:hover {
   .btn {
     display: flex;
     position: relative;
-    left: 20%;
+    left: 5%;
     width: 30%;
   }
   .abtimg img {
