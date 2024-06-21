@@ -35,20 +35,17 @@ function HandleBar(){
     let bar = document.getElementById('bars');
     let navbar = document.getElementById('navbar')
     let closenav = document.getElementById("closenav");
-    if(bar.getAttribute('id') == 'bars'){
-        navbar.style.display='block'
+        navbar.style.display='flex'
         bar.style.display='none'
-       closenav.style.display = "block";
-
-    }
+        closenav.style.display = "inline";
+        navbar.style.transition='all 0.3s ease'
 }
 function CloseBar(){
     let closenav = document.getElementById('closenav');
     let navbar = document.getElementById("navbar");
     let bar = document.getElementById("bars");
-     if (closenav.getAttribute("id") == "closenav") {
        navbar.style.display = "none";
        closenav.style.display = "none";
        bar.style.display = "block";
-     }
+     
 }
