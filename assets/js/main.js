@@ -21,7 +21,7 @@ link1.addEventListener("click", () => {
 });
 
 link2.addEventListener("click", () => {
-  scrollToElement(".frontendtech");
+  scrollToElement(".experties");
 });
 
 link3.addEventListener("click", () => {

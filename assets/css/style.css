@@ -32,14 +32,19 @@
 .navbar {
   display: flex;
   align-content: center;
-  position: relative;
-  right: 5%;
+  position: fixed;
+  left: 35%;
+  z-index: 100;
+  padding: 40px;
+  background-color:#023e8a;
+  border-radius: 20px;
 }
 .navlinks {
   display: flex;
   align-items: center;
   /* border: 2px solid; */
   gap: 6rem;
+  background-color:#023e8a;
 }
 .navlogo img {
   display: flex;
@@ -61,6 +66,7 @@
   transition: color 0.3 ease;
   position: relative;
   color: #fefae0;
+  background-color:#023e8a;
 }
 a::after {
   content: "";
@@ -69,7 +75,7 @@ a::after {
   bottom: 0;
   left: 0;
   width: 0;
-  background: #00b4d8;
+  background: #111111;
   transition: all 0.3s ease;
 }
 a:hover {
