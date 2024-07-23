@@ -51,5 +51,7 @@ function CloseBar(){
        navbar.style.display = "none";
        closenav.style.display = "none";
        bar.style.display = "block";
-     
 }
+
+
+
